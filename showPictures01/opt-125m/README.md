@@ -3,7 +3,7 @@ https://github.com/facebookresearch/metaseq/blob/main/docs/faster-transformer.md
 ------------------------------------------------------------------------------------------------------------------------
 ## 1. Clone metaseq and download metaseq checkpoints
 
-Q: 创建文件夹的时候有问题。例如直接创建时得到 `'checkpoints'`，而使用教程中的指令创建得到 `'ch'$'\n''eckpoints'`，但是显示在 vscode
+Q: 创建文件夹的时候有问题。例如直接创建时得到 `'checkpoints'`，而使用教程中的指令创建得到 `'ch'$'\n''eckpoints'`，但是在 vscode
 和 mobaxterm 上显示的都是 `'checkpoints'`。造成文件系统管理混乱。
 
 S: 全部使用教程中的指令直接在 `/home/lifang535` 工作文件夹下创建 `'metaseq'` 和 `'checkpoints'`，避免上述情况。
