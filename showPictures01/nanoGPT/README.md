@@ -22,6 +22,12 @@ $ python train.py config/train_shakespeare_char.py
 
 $ python sample.py --out_dir=out-shakespeare-char
 
+Q: 在 reproducing GPT-2 中 python data/openwebtext/prepare.py 下载数据集时到 28% 就会中断报错。
+   
+   报错信息 -> error_1.png
+
+S: ?
+
 -> nanoGPT_1.png
 
 ------------------------------------------------------------------------------------------------------------------------
