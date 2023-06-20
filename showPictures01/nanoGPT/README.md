@@ -23,7 +23,7 @@ python train.py config/train_shakespeare_char.py
 python sample.py --out_dir=out-shakespeare-char
 ```
 
-[ -> nanoGPT_1.png ]
+**-> nanoGPT_1.png**
 
 Q: 在 reproducing GPT-2 时执行 
 ```
@@ -35,7 +35,7 @@ python data/openwebtext/prepare.py
 datasets.builder.DatasetGenerationError: An error occurred while generating the dataset
 ```
 
-[ -> error_1.png ]
+**-> error_1.png**
 
 S: ?
 
@@ -48,7 +48,7 @@ python train.py config/finetune_shakespeare.py
 torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.76 GiB total capacity; 9.03 GiB already allocated; 17.25 MiB free; 9.22 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
 ```
 
-[ -> error_2.png ]
+**-> error_2.png**
 
 S: 考虑通过减小 batch_size 或者更换 gpt2-xl 的方式解决 ?
 ```
@@ -67,6 +67,6 @@ python sample.py \
     --num_samples=5 --max_new_tokens=100
 ```
 
-[-> nanoGPT_2.png ]
+**-> nanoGPT_2.png**
 
 ------------------------------------------------------------------------------------------------------------------------
