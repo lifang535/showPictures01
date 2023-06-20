@@ -17,7 +17,7 @@ $ python sample.py --out_dir=out-shakespeare-char
 
 ------------------------------------------------------------------------------------------------------------------------
 3. sampling / inference
-用 nanoGPT 做推理实验
+用 nanoGPT 做推理实验：
 $ python sample.py \
     --init_from=gpt2-xl \
     --start="What is the answer to life, the universe, and everything?" \
