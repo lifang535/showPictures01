@@ -22,15 +22,18 @@ python train.py config/train_shakespeare_char.py
 ```
 python sample.py --out_dir=out-shakespeare-char
 ```
-### -> nanoGPT_1.png
+[ -> nanoGPT_1.png ]
 
 Q: 在 reproducing GPT-2 时执行 
 ```
 python data/openwebtext/prepare.py
 ```
-下载数据集时到 28% 就会中断报错。
-   
-### -> error_1.png
+下载数据集时到 28% 就会中断报错
+```
+    raise DatasetGenerationError("An error occurred while generating the dataset") from e
+datasets.builder.DatasetGenerationError: An error occurred while generating the dataset
+```
+[ -> error_1.png ]
 
 S: ?
 
@@ -57,6 +60,6 @@ python sample.py \
     --num_samples=5 --max_new_tokens=100
 ```
 
-### -> nanoGPT_2.png
+[-> nanoGPT_2.png ]
 
 ------------------------------------------------------------------------------------------------------------------------
