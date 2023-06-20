@@ -36,5 +36,6 @@ S: 将 python 部分指令中 "reshard-model_part-*.pt" 改为 "reshard-model_pa
 
 Q: 执行 FT_PATH="lib/libth_transformer.so" 后无法执行 mpirun ...，报错显示未设置环境变量。
 S: 更改为 export FT_PATH="/home/lifang535/FasterTransformer/build/lib/libth_transformer.so"。
+-> opt-125m.png
 
 ------------------------------------------------------------------------------------------------------------------------
