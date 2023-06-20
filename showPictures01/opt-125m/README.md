@@ -67,6 +67,6 @@ S: 更改为
 ```
 export FT_PATH="/home/lifang535/FasterTransformer/build/lib/libth_transformer.so"。
 ```
--> opt-125m.png
+### -> opt-125m.png
 
 ------------------------------------------------------------------------------------------------------------------------
