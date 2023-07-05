@@ -25,6 +25,8 @@ python sample.py --out_dir=out-shakespeare-char
 
 **-> nanoGPT_1.png**
 
+![Image]()
+
 Q: 在 reproducing GPT-2 时执行 
 ```
 python data/openwebtext/prepare.py
@@ -36,6 +38,8 @@ datasets.builder.DatasetGenerationError: An error occurred while generating the 
 ```
 
 **-> error_1.png**
+
+![Image]()
 
 S: ?
 
@@ -49,6 +53,8 @@ torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GP
 ```
 
 **-> error_2.png**
+
+![Image]()
 
 S: 考虑通过减小 batch_size 或者更换 gpt2-xl 的方式解决 ?
 ```
@@ -68,5 +74,7 @@ python sample.py \
 ```
 
 **-> nanoGPT_2.png**
+
+![Image]()
 
 ------------------------------------------------------------------------------------------------------------------------
