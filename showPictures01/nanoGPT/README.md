@@ -25,7 +25,7 @@ python sample.py --out_dir=out-shakespeare-char
 
 **-> nanoGPT_1.png**
 
-![Image]()
+![Image](https://github.com/lifang535/showPictures01/blob/main/showPictures01/nanoGPT/nanoGPT_1.png)
 
 Q: 在 reproducing GPT-2 时执行 
 ```
@@ -39,7 +39,7 @@ datasets.builder.DatasetGenerationError: An error occurred while generating the 
 
 **-> error_1.png**
 
-![Image]()
+![Image](https://github.com/lifang535/showPictures01/blob/main/showPictures01/nanoGPT/error_1.png)
 
 S: ?
 
@@ -54,7 +54,7 @@ torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GP
 
 **-> error_2.png**
 
-![Image]()
+![Image](https://github.com/lifang535/showPictures01/blob/main/showPictures01/nanoGPT/error_2.png)
 
 S: 考虑通过减小 batch_size 或者更换 gpt2-xl 的方式解决 ?
 ```
@@ -75,6 +75,6 @@ python sample.py \
 
 **-> nanoGPT_2.png**
 
-![Image]()
+![Image](https://github.com/lifang535/showPictures01/blob/main/showPictures01/nanoGPT/nanoGPT_2.png)
 
 ------------------------------------------------------------------------------------------------------------------------
