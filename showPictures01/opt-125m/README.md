@@ -70,6 +70,6 @@ export FT_PATH="/home/lifang535/FasterTransformer/build/lib/libth_transformer.so
 
 **-> opt-125m.png**
 
-![Image](https://raw.githubusercontent.com/siyecao/image-folder/master/images/file_watchers.png)
+![Image](https://github.com/lifang535/showPictures01/blob/main/showPictures01/opt-125m/opt-125m.png)
 
 ------------------------------------------------------------------------------------------------------------------------
