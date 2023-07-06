@@ -31,7 +31,7 @@ Q: 在 reproducing GPT-2 时执行
 ```
 python data/openwebtext/prepare.py
 ```
-下载数据集时到 28% 就会中断报错
+下载数据集时到 28% 就会中断报错（已解决）
 ```
     raise DatasetGenerationError("An error occurred while generating the dataset") from e
 datasets.builder.DatasetGenerationError: An error occurred while generating the dataset
