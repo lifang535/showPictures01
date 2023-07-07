@@ -47,7 +47,7 @@ Q: 在 finetuning 时执行
 ```
 python train.py config/finetune_shakespeare.py
 ```
-进行微调时报错
+进行微调时报错（已解决）
 ```
 torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.76 GiB total capacity; 9.03 GiB already allocated; 17.25 MiB free; 9.22 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
 ```
